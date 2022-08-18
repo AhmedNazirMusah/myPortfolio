@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+i {
+  flex :1 10 40px;
+  font-size: 40px;
+  padding: 20px;
+  color: rgb(18, 118, 225);
+}
+
+
+.welcome {
+  flex: 10 1 10px;
+  padding: 10px;
+  color: #6070FF;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.section2 {
+  display: flex;
+  margin: 10%;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items:baseline;
+}
+
+.section2 > h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.socialmeadia-container {
+  display: flex;
+  list-style-type: none;
+  justify-content:center;
+  align-items:baseline;
+}
+
+.icons {
+  justify-content: space-between;
+  width: 50px;
+  flex: 1 1 50px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.eclip3{
+  position: relative;
+  left:16rem;
+  top: 115px;
+}
+.rect4{
+  position: relative;
+  left:170px;
+  top: 45px;
+}
+
+.eclip8{
+  position: relative;
+  left:10rem;
+  bottom: 30px;
+}
+.rect7{
+  position: relative;
+  right:9rem;
+  top: 49px;
+}
+.eclip5{
+  position: relative;
+  left:11px;
+  top: 49px;
+}
+.eclip15{
+  position: relative;
+  left: 2rem;
+  bottom: 5rem
+}
+
+.rect5{
+  position: relative;
+  left: 13rem;
+}
+
+.eclip4{
+  position: relative;
+  left: 16rem;
+  top:48px;
+}
+.eclip12{
+  position:relative;
+  left:19rem;
+  bottom: 174px;
+}
+.eclip13{
+  position: relative;
+  left:18rem;
+  bottom: 99px;
+}
+#connect{
+  color: #6070FF;
+  font-size: 20px;
+}
+
+@media all and (max-width:480px) {
+  body {
+    width: 375px;
+    
+  }
+  i{
+    flex:1;
+  }
+  .welcome{
+    flex: 5;
+  }
+}
