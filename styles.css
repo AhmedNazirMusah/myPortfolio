@@ -13,7 +13,7 @@ button {
   border: none;
 }
 
-icon {
+.icon {
   flex: 1 10 40px;
   font-size: 40px;
   padding: 20px;
@@ -82,15 +82,17 @@ ul {
   right: 9rem;
   top: 49px;
 }
+
 .eclip5 {
   position: relative;
   left: 11px;
   top: 49px;
 }
+
 .eclip15 {
   position: relative;
   left: 2rem;
-  bottom: 5rem
+  bottom: 5rem;
 }
 
 .rect5 {
@@ -117,7 +119,7 @@ ul {
 }
 
 #connect {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 20px;
 }
 
@@ -130,6 +132,7 @@ ul {
   i {
     flex: 1;
   }
+  
   .welcome {
     flex: 5;
   }
