@@ -9,29 +9,27 @@ body {
 }
 
 i {
-  flex :1 10 40px;
+  flex: 1 10 40px;
   font-size: 40px;
   padding: 20px;
   color: rgb(18, 118, 225);
 }
 
-
 .welcome {
   flex: 10 1 10px;
   padding: 10px;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 30px;
   text-decoration: none;
   font-weight: 900;
-  padding: 20px;
 }
 
 .section2 {
   display: flex;
   margin: 10%;
   flex-direction: column;
-  justify-content:baseline;
-  align-items:baseline;
+  justify-content: baseline;
+  align-items: baseline;
 }
 
 .section2 > h1 {
@@ -42,8 +40,8 @@ i {
 .socialmeadia-container {
   display: flex;
   list-style-type: none;
-  justify-content:center;
-  align-items:baseline;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .icons {
@@ -53,62 +51,67 @@ i {
 }
 
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 1px;
 }
 
-.eclip3{
+.eclip3 {
   position: relative;
-  left:16rem;
+  left: 16rem;
   top: 115px;
 }
-.rect4{
+
+.rect4 {
   position: relative;
-  left:170px;
+  left: 170px;
   top: 45px;
 }
 
-.eclip8{
+.eclip8 {
   position: relative;
-  left:10rem;
+  left: 10rem;
   bottom: 30px;
 }
-.rect7{
+
+.rect7 {
   position: relative;
-  right:9rem;
+  right: 9rem;
   top: 49px;
 }
-.eclip5{
+.eclip5 {
   position: relative;
-  left:11px;
+  left: 11px;
   top: 49px;
 }
-.eclip15{
+.eclip15 {
   position: relative;
   left: 2rem;
   bottom: 5rem
 }
 
-.rect5{
+.rect5 {
   position: relative;
   left: 13rem;
 }
 
-.eclip4{
+.eclip4 {
   position: relative;
   left: 16rem;
-  top:48px;
-}
-.eclip12{
-  position:relative;
-  left:19rem;
+  top: 48px;
+} 
+
+.eclip12 {
+  position: relative;
+  left: 19rem;
   bottom: 174px;
 }
-.eclip13{
+
+.eclip13 {
   position: relative;
-  left:18rem;
+  left: 18rem;
   bottom: 99px;
 }
-#connect{
+
+#connect {
   color: #6070FF;
   font-size: 20px;
 }
@@ -118,10 +121,11 @@ ul {
     width: 375px;
     
   }
-  i{
-    flex:1;
+
+  i {
+    flex: 1;
   }
-  .welcome{
+  .welcome {
     flex: 5;
   }
 }
