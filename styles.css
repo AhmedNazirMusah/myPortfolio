@@ -123,17 +123,4 @@ ul {
   font-size: 20px;
 }
 
-@media all and (max-width:480px) {
-  body {
-    width: 375px;
-    
-  }
-
-  i {
-    flex: 1;
-  }
-
-  .welcome {
-    flex: 5;
-  }
-}
+@media all and (max-width: 480px) { body { width: 375px; } i { flex: 1; } .welcome { flex: 5; } }
