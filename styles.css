@@ -104,7 +104,7 @@ ul {
   position: relative;
   left: 16rem;
   top: 48px;
-} 
+}
 
 .eclip12 {
   position: relative;
@@ -132,7 +132,7 @@ ul {
   i {
     flex: 1;
   }
-  
+
   .welcome {
     flex: 5;
   }
