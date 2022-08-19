@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: rgb(255, 255, 255);
+  background: rgba(244, 238, 238, 0.829);
   margin: 0;
 }
 
@@ -54,6 +54,7 @@ nav {
   list-style-type: none;
   justify-content: center;
   align-items: baseline;
+  width: 200px;
 }
 
 .icons {
@@ -77,4 +78,102 @@ ul {
 
 .connect {
   text-decoration: none;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+  row-gap: 88px;
+  margin-left: 10px;
+}
+
+.works h2 {
+  margin-block-start: initial;
+  margin-block-end: initial;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.works p {
+  margin-block-start: initial;
+  margin-block-end: initial;
+  font-weight: 400;
+  size: 15px;
+  width: 295px;
+}
+
+.u-c {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  list-style:none;
+}
+
+.u-html {
+  display: flex;
+  list-style: none;
+}
+
+.u-html li {
+  margin-right: 15px;
+  background: #8f98eaa7;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+h4 {
+  padding: 10px;
+  display: inline-block;
+  border: 3px solid #2c3cc8a7;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.card1, .card2, .card3, .card4 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+}
+
+.about-section {
+  padding: 16px;
+  background: white;
+  border-radius: 0px 60px;
+}
+
+.languages {
+  list-style: none;
+
+}
+
+.languages li {
+  list-style: none;
+  
+}
+
+.languages img {
+  margin-right: 1rem;
+}
+
+.lang-item {
+  padding: 1.2rem 0;
+}
+
+.lang-child {
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  background-color: #F7F7F9;
+  margin-bottom: 0.9rem;
+  border-radius: 8px;
+}
+
+.hr {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
 }
