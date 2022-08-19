@@ -108,7 +108,7 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 270px;
-  list-style:none;
+  list-style: none;
 }
 
 .u-html {
@@ -132,7 +132,31 @@ h4 {
   font-weight: 500;
 }
 
-.card1, .card2, .card3, .card4 {
+.card1 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+}
+
+.card2 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+}
+
+.card3 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+}
+
+.card4 {
   flex-direction: column;
   display: flex;
   background: white;
@@ -143,17 +167,15 @@ h4 {
 .about-section {
   padding: 16px;
   background: white;
-  border-radius: 0px 60px;
+  border-radius: 0 60px;
 }
 
 .languages {
   list-style: none;
-
 }
 
 .languages li {
   list-style: none;
-  
 }
 
 .languages img {
@@ -168,7 +190,7 @@ h4 {
   padding: 15px;
   align-items: center;
   display: flex;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   margin-bottom: 0.9rem;
   border-radius: 8px;
 }
