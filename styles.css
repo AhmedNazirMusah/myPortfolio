@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: rgb(255, 255, 255);
+  background: #f7f7f9;
   margin: 0;
 }
 
@@ -54,6 +54,7 @@ nav {
   list-style-type: none;
   justify-content: center;
   align-items: baseline;
+  width: 200px;
 }
 
 .icons {
@@ -77,4 +78,173 @@ ul {
 
 .connect {
   text-decoration: none;
+  color: rgb(37, 3, 254);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+  row-gap: 88px;
+  margin-left: 10px;
+}
+
+.works h2 {
+  margin-block-start: initial;
+  margin-block-end: initial;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.works p {
+  margin-block-start: initial;
+  margin-block-end: initial;
+  font-weight: 400;
+  size: 15px;
+  width: 295px;
+}
+
+.u-c {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  list-style: none;
+}
+
+.u-html {
+  display: flex;
+  list-style: none;
+}
+
+.u-html li {
+  margin-right: 15px;
+  background: #ebebff;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+h4 {
+  padding: 10px;
+  display: inline-block;
+  border: 3px solid #2c3cc8a7;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.card1 {
+  margin: 0 24px;
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+}
+
+.card2 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+  margin: 0 24px;
+}
+
+.card3 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+  margin: 0 24px;
+}
+
+.card4 {
+  flex-direction: column;
+  display: flex;
+  background: white;
+  padding: 16px;
+  border-radius: 4%;
+  margin: 0 24px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background: white;
+  border-radius: 0 6rem;
+}
+
+.about-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.languages {
+  list-style: none;
+}
+
+.languages li {
+  list-style: none;
+}
+
+.languages img {
+  margin-right: 1rem;
+}
+
+.lang-itemz {
+  display: flex;
+  padding: 1.2rem 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  justify-content: space-between;
+}
+
+.lang-child {
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  background-color: #f7f7f9;
+  margin-top: 0.9rem;
+  border-radius: 8px;
+}
+
+.hr {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+.button :hover {
+  background: #6070ff;
+}
+
+.button :active {
+  background: #2230d2;
+}
+
+.button :disabled {
+  border: 1px solid #c1c7d0;
+}
+
+.button :enabled {
+  border: 1px solid #7f8cff;
+}
+
+.sec {
+  color: #7a869ae7;
+}
+
+a {
+  color: #396df2;
+}
+
+select {
+  border: none;
 }
