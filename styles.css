@@ -7,14 +7,9 @@ body {
 }
 
 .container {
-	padding: 20px;
 }
 
 .zee {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
-	flex-flow: row wrap;
 }
 
 nav {
@@ -23,13 +18,11 @@ nav {
 }
 
 .icon {
-	padding: 20px;
 	color: rgb(18, 118, 225);
 }
 
 .welcome {
 	flex: 1;
-	padding: 10px;
 	color: #6070ff;
 	font-size: 30px;
 	text-decoration: none;
@@ -38,7 +31,6 @@ nav {
 
 .section2 {
 	display: flex;
-	margin: 10%;
 	flex-direction: column;
 	justify-content: baseline;
 	align-items: baseline;
@@ -69,7 +61,6 @@ ul {
 
 .background-icons {
 	position: absolute;
-	margin-top: 90px;
 	z-index: -1;
 	height: auto;
 	flex: 1;
@@ -85,32 +76,21 @@ ul {
 
 .works {
 	display: grid;
-	grid-template-columns: auto;
-	padding: 20px;
-	row-gap: 88px;
-	margin-left: 10px;
 }
 
 .works h2 {
-	margin-block-start: initial;
-	margin-block-end: initial;
 	font-weight: 700;
 	font-size: 32px;
-	margin-top: 10px;
 }
 
 .works p {
-	margin-block-start: initial;
-	margin-block-end: initial;
 	font-weight: 400;
 	size: 15px;
-	width: 295px;
 }
 
 .u-c {
 	display: flex;
 	justify-content: space-between;
-	width: 270px;
 	list-style: none;
 }
 
@@ -120,15 +100,12 @@ ul {
 }
 
 .u-html li {
-	margin-right: 15px;
 	background: #ebebff;
-	padding: 6px;
 	border-radius: 8px;
 	font-weight: 500;
 }
 
 h4 {
-	padding: 10px;
 	display: inline-block;
 	border: 3px solid #2c3cc8a7;
 	border-radius: 8px;
@@ -136,11 +113,9 @@ h4 {
 }
 
 .card1 {
-	margin: 0 24px;
 	flex-direction: column;
 	display: flex;
 	background: white;
-	padding: 16px;
 	border-radius: 4%;
 }
 
@@ -148,33 +123,26 @@ h4 {
 	flex-direction: column;
 	display: flex;
 	background: white;
-	padding: 16px;
 	border-radius: 4%;
-	margin: 0 24px;
 }
 
 .card3 {
 	flex-direction: column;
 	display: flex;
 	background: white;
-	padding: 16px;
 	border-radius: 4%;
-	margin: 0 24px;
 }
 
 .card4 {
 	flex-direction: column;
 	display: flex;
 	background: white;
-	padding: 16px;
 	border-radius: 4%;
-	margin: 0 24px;
 }
 
 .about-section {
 	display: flex;
 	flex-direction: column;
-	padding: 0 24px;
 	background: white;
 	border-radius: 0 6rem;
 }
@@ -195,12 +163,10 @@ h4 {
 }
 
 .languages img {
-	margin-right: 1rem;
 }
 
 .lang-itemz {
 	display: flex;
-	padding: 1.2rem 0;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
@@ -208,11 +174,9 @@ h4 {
 }
 
 .lang-child {
-	padding: 15px;
 	align-items: center;
 	display: flex;
 	background-color: #f7f7f9;
-	margin-top: 0.9rem;
 	border-radius: 8px;
 }
 
@@ -250,7 +214,6 @@ select {
 }
 
 footer {
-	margin-top: 113px;
 	background-color: #f7f7f9;
 	width: 100%;
 }
@@ -260,7 +223,6 @@ form {
 	background-repeat: no-repeat;
 	background-color: #6070ff;
 	border-top-left-radius: 80px;
-	padding: 103px 24px 45px 24px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -272,16 +234,12 @@ form h3 {
 	font-size: 40px;
 	font-weight: 700;
 	color: white;
-	margin-top: 0;
-	margin-bottom: 12px;
 }
 
 form p {
 	font-size: 20px;
 	text-align: center;
 	color: white;
-	margin-top: 0;
-	margin-bottom: 45px;
 }
 
 form input {
@@ -289,17 +247,13 @@ form input {
 	border: 1px solid #cfd8dc;
 	border-radius: 8px;
 	height: 14px;
-	padding: 16px;
 	font-size: 17px;
-	margin-bottom: 20px;
 }
 
 form textarea {
 	border: 1px solid #cfd8dc;
 	border-radius: 8px;
 	width: 85%;
-	padding: 16px;
 	min-height: 170px;
-	margin-bottom: 20px;
 	font-size: 17px;
 }
