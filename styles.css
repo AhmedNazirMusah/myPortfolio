@@ -61,7 +61,7 @@ nav {
   padding: 0 24px;
   border-bottom-left-radius: 80px;
   padding-bottom: 100px;
-  background-image: url(/eclips/header-shapes-mobile.png);
+  background-image: url(works/bg.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 100px;
@@ -118,6 +118,14 @@ ul {
   font-size: 32px;
 }
 
+form p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 55px;
+}
+
 .works p {
   font-weight: 400;
   size: 15px;
@@ -136,6 +144,13 @@ ul {
   margin-right: 12px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+h4 {
+  display: inline-block;
+  border: 3px solid #2c3cc8a7;
+  border-radius: 8px;
+  font-weight: 500;
 }
 
 .button h4 {
@@ -163,13 +178,6 @@ ul {
   padding: 4px 12px;
   margin-right: 8px;
   color: #6070ff;
-}
-
-h4 {
-  display: inline-block;
-  border: 3px solid #2c3cc8a7;
-  border-radius: 8px;
-  font-weight: 500;
 }
 
 .card1 {
@@ -320,7 +328,7 @@ footer {
 }
 
 form {
-  background-image: url(./works/contact-form-shapes-mobile.svg);
+  background-image: url(works/contact-form-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 80px;
@@ -341,24 +349,16 @@ form h3 {
   margin: 0;
 }
 
-form p {
-  font-size: 20px;
-  text-align: center;
-  color: white;
-  margin-top: 12px;
-  margin-bottom: 55px;
-}
-
 form input {
   width: 100%;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  height: 14px;
   font-size: 17px;
   height: 44px;
   padding-left: 6px;
   margin-bottom: 20px;
 }
+
 form input::placeholder {
   color: #b3bac5;
 }
@@ -367,7 +367,6 @@ form textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 100%;
-  min-height: 170px;
   font-size: 17px;
   padding-left: 6px;
   min-height: 170px;
