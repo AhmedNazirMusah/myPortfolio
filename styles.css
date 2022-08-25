@@ -43,7 +43,7 @@ nav {
 .welcome {
   flex: 1;
   color: #6070ff;
-  font-size: 30px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: 900;
 }
@@ -215,7 +215,6 @@ h4 {
 }
 
 .about-section div {
-  padding: 0 24px;
   background: white;
   border-top-right-radius: 80px;
 }
@@ -240,6 +239,14 @@ h4 {
 .lang-item {
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.open {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   margin-bottom: 36px;
 }
 
@@ -272,10 +279,6 @@ h4 {
   border-radius: 8px;
   padding: 9px 12px;
   margin-bottom: 12px;
-}
-
-.lang-child:last-child {
-  margin-bottom: 0;
 }
 
 .hr {
@@ -387,4 +390,169 @@ form button {
   border-radius: 8px;
   border: none;
   background: white;
+}
+
+.dnav-list {
+  display: flex;
+}
+
+.detailed-nav {
+  display: none;
+}
+
+.dnav-list a {
+  text-decoration: none;
+  color: black;
+  margin-right: 32px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dnav-list a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  /** Desktop styling **/
+  .welcome {
+    padding-left: 130px;
+    font-size: 18px;
+  }
+
+  .li-class2 {
+    display: none;
+  }
+
+  .detailed-nav {
+    display: block;
+    padding: 0 130px;
+  }
+
+  .section2-container {
+    background-image: url(svgs/Header-desktop.svg);
+    padding: 100px 260px 259px 260px;
+  }
+
+  .c-class {
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-gap: 3%;
+    border-radius: 24px;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 142px;
+  }
+
+  .p-img {
+    margin-right: 46px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .works {
+    padding: 142px 13%;
+    grid-gap: unset;
+    display: block;
+  }
+
+  .p-intro {
+    background: white;
+    font-size: 16px;
+    color: #344563;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .connect {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .icons {
+    margin-right: 19px;
+  }
+
+  .c-class h2 {
+    margin-top: 24px;
+    font-size: 40px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .c-class h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .c-class p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .abt-me {
+    padding: 114px 13%;
+    display: grid;
+    grid-template-columns: 33% 65%;
+    grid-gap: 2%;
+    align-items: center;
+  }
+
+  .lang-item > ul {
+    display: flex;
+    margin-top: 36px;
+  }
+
+  .lang-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 40px;
+    margin-right: 12px;
+    width: unset;
+  }
+
+  .lang-child img {
+    margin-bottom: 16px;
+  }
+
+  .forms {
+    width: 37%;
+    margin: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forms button {
+    margin: auto;
+  }
+
+  form {
+    background: url(works/form-bg.svg);
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    background-size: 100%;
+  }
+
+  .f-input {
+    width: 88%;
+    margin: auto auto 20px auto;
+    border-radius: 2px;
+  }
+
+  .c-class:nth-child(even) {
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+
+  .c-class:nth-child(even) div {
+    direction: ltr;
+  }
+
+  .c-class:nth-child(even) .p-img {
+    margin-right: 0;
+  }
 }
