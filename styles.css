@@ -43,10 +43,9 @@ nav {
 .welcome {
   flex: 1;
   color: #6070ff;
-  font-size: 30px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: 900;
-  padding-left: 150px;
 }
 
 .section2 {
@@ -415,13 +414,18 @@ form button {
 
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
+  .welcome {
+    padding-left: 130px;
+    font-size: 18px;
+  }
+
   .li-class2 {
     display: none;
   }
 
   .detailed-nav {
     display: block;
-    padding: 0 150px;
+    padding: 0 130px;
   }
 
   .section2-container {
@@ -543,11 +547,12 @@ form button {
     grid-auto-flow: dense;
     direction: rtl;
   }
-  
-  .c-class:nth-child(even) .p-img {
-    width: 100%;
-    margin-right: 0;
+
+  .c-class:nth-child(even) div {
+    direction: ltr;
   }
 
-
+  .c-class:nth-child(even) .p-img {
+    margin-right: 0;
+  }
 }
