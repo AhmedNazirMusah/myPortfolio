@@ -573,4 +573,12 @@ form button {
 		transform: translate(50px, 0);
 	}
 
+  .li-class {
+		animation: turn 1s linear;
+	}
+
+	@keyframes turn {
+		100%{transform:rotate(360deg)}
+	}
+
 }
