@@ -555,4 +555,22 @@ form button {
   .c-class:nth-child(even) .p-img {
     margin-right: 0;
   }
+
+	.p-img:hover {
+		width: 102%;
+		height: 102%;
+	}
+
+	.button h4:hover {
+		font-size: 20px;
+	}
+
+	.icons img:hover {
+		width: 22px;
+	}
+
+	form p:hover {
+		transform: translate(50px, 0);
+	}
+
 }
