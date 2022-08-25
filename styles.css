@@ -46,6 +46,7 @@ nav {
   font-size: 30px;
   text-decoration: none;
   font-weight: 900;
+  padding-left: 150px;
 }
 
 .section2 {
@@ -420,6 +421,7 @@ form button {
 
   .detailed-nav {
     display: block;
+    padding: 0 150px;
   }
 
   .section2-container {
@@ -536,4 +538,16 @@ form button {
     margin: auto auto 20px auto;
     border-radius: 2px;
   }
+
+  .c-class:nth-child(even) {
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+  
+  .c-class:nth-child(even) .p-img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+
 }
