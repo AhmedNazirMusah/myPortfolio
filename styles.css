@@ -11,6 +11,7 @@ li {
 
 .p-img {
   margin-bottom: 12px;
+  transition: 200ms all ease-in-out;
 }
 
 .c-class h2 {
@@ -158,6 +159,7 @@ h4 {
   font-weight: 500;
   padding: 12px;
   margin-top: 10px;
+  transition: 200ms all ease-in-out;
 }
 
 .u-c img {
@@ -412,6 +414,10 @@ form button {
   text-decoration: underline;
 }
 
+form p {
+  transition: 400ms all ease-in-out;
+}
+
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
   .welcome {
@@ -552,7 +558,32 @@ form button {
     direction: ltr;
   }
 
+  .p-img:hover {
+    width: 102%;
+    height: 102%;
+  }
+
   .c-class:nth-child(even) .p-img {
     margin-right: 0;
+  }
+
+  .button h4:hover {
+    font-size: 20px;
+  }
+
+  .icons img:hover {
+    width: 22px;
+  }
+
+  form p:hover {
+    transform: translate(50px, 0);
+  }
+
+  .li-class {
+    animation: turn 1s linear;
+  }
+
+  @keyframes turn {
+    100% { transform: rotate(360deg); }
   }
 }
