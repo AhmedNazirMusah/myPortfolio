@@ -415,7 +415,6 @@ form button {
   text-decoration: underline;
 }
 
-
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
   .welcome {
