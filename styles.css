@@ -11,6 +11,7 @@ li {
 
 .p-img {
   margin-bottom: 12px;
+  transition: 200ms all ease-in-out;
 }
 
 .c-class h2 {
@@ -124,6 +125,7 @@ form p {
   color: white;
   margin-top: 12px;
   margin-bottom: 55px;
+  transition: 400ms all ease-in-out;
 }
 
 .works p {
@@ -158,6 +160,7 @@ h4 {
   font-weight: 500;
   padding: 12px;
   margin-top: 10px;
+  transition: 200ms all ease-in-out;
 }
 
 .u-c img {

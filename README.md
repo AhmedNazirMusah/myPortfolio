@@ -11,7 +11,7 @@ In this project, you will set up a basic portfolio for future update.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ahmednazirmusah.github.io/myPortfolio/)
 
 ## Getting Started
 
