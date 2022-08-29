@@ -125,6 +125,7 @@ form p {
   color: white;
   margin-top: 12px;
   margin-bottom: 55px;
+  transition: 400ms all ease-in-out;
 }
 
 .works p {
@@ -414,9 +415,6 @@ form button {
   text-decoration: underline;
 }
 
-form p {
-  transition: 400ms all ease-in-out;
-}
 
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
