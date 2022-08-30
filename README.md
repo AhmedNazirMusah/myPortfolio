@@ -9,7 +9,7 @@ In this project, you will set up a basic portfolio for future update.
 
 - HTML & CSS
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://ahmednazirmusah.github.io/myPortfolio/)
 
