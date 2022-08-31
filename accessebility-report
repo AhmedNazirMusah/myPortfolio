@@ -1,0 +1,15 @@
+The Following Points were evaluated:
+
+1. Page titles - No issues found
+2. Image text alternatives- No issues found
+3. Text headings -
+Heading elements are not in a sequentially-descending order
+line 68 , line 90, line 111 , line 142
+   
+4. Color contrast - Background and foreground colors do not have a sufficient contrast ratio.
+line 14 
+5. Resize - No issues found
+6. Interaction - No issues found
+7. Moving content - No issues found
+8. Multimedia - No issues found
+9. The basic structure of the page- No issues found
