@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="container">
+  <ul class="mobile-modal hide">
+    <span class="close-btn"><img src="/works/close-btn.svg" alt="close-btn"></span>
+    <li class="m-links"><a href="#Header"> Porfolio</a></li>
+    <li class="m-links"><a href="#About-me"> About</a></li>
+    <li class="m-links"><a href="#Contact-me"> Contact</a></li>
+   </ul>
+  <header class="container" id="Header">
     <nav>
       <ul class="zee">
         <li class="li-class test"><a href="#" class="welcome">My Logo</a></li>
@@ -127,7 +133,7 @@
     </div>      
   </section>
   <section class="about-section">
-    <div class="abt-me">
+    <div class="abt-me" id="About-me">
       <div>
         <h1>About<br>Myself</h1>
         <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -162,7 +168,7 @@
   </section>
   <footer>
     <form action="https://formspree.io/f/mwkzpvpy" method="post">
-      <div class="forms">
+      <div class="forms" id="Contact-me">
         <h3>Contact Me</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         <input type="text" placeholder="Name" maxlength="30" class="f-input" name="Name" required >
@@ -172,5 +178,6 @@
       </div>
   </form>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
