@@ -5,8 +5,61 @@ body {
   margin: 0;
 }
 
+.mobile-modal {
+  background-color: hsla(234, 100%, 50%, 0.595);
+  display: flex;
+  flex-direction: column;
+  padding: 5% 40px 20px 28px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+
+a {
+  color: #396df2;
+}
+
+.mobile-modal a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.close-btn {
+  color: white;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  margin-right: 10%;
+}
+
+.u-c img {
+  margin-right: 12px;
+}
+
+.lang-child img {
+  margin-right: 16px;
+}
+
+.close-btn img:hover {
+  color: #6070ff;
+}
+
 li {
   list-style: none;
+  padding-bottom: 30px;
 }
 
 .p-img {
@@ -22,6 +75,10 @@ li {
 .c-class {
   padding: 16px;
   margin-bottom: 88px;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 .zee {
@@ -163,10 +220,6 @@ h4 {
   transition: 200ms all ease-in-out;
 }
 
-.u-c img {
-  margin-right: 12px;
-}
-
 .u-html {
   display: flex;
   list-style: none;
@@ -220,6 +273,7 @@ h4 {
 .about-section div {
   background: white;
   border-top-right-radius: 80px;
+  padding: 0 24px;
 }
 
 .about-section h1 {
@@ -259,10 +313,6 @@ h4 {
 
 .languages li {
   list-style: none;
-}
-
-.lang-child img {
-  margin-right: 16px;
 }
 
 .lang-itemz {
@@ -318,10 +368,6 @@ h4 {
 
 .sec {
   color: #7a869ae7;
-}
-
-a {
-  color: #396df2;
 }
 
 select {
@@ -426,6 +472,10 @@ form button {
   .welcome {
     padding-left: 130px;
     font-size: 18px;
+  }
+
+  .mobile-modal {
+    display: none;
   }
 
   .li-class2 {
