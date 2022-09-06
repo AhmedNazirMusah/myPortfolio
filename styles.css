@@ -11,13 +11,17 @@ body {
   flex-direction: column;
   padding: 5% 40px 20px 28px;
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   z-index: 3;
   height: 100%;
   width: 100%;
+}
+
+a {
+  color: #396df2;
 }
 
 .mobile-modal a {
@@ -40,10 +44,17 @@ body {
   margin-right: 10%;
 }
 
-.close-btn img:hover {
-  color: #6070FF;
+.u-c img {
+  margin-right: 12px;
 }
 
+.lang-child img {
+  margin-right: 16px;
+}
+
+.close-btn img:hover {
+  color: #6070ff;
+}
 
 li {
   list-style: none;
@@ -204,10 +215,6 @@ h4 {
   transition: 200ms all ease-in-out;
 }
 
-.u-c img {
-  margin-right: 12px;
-}
-
 .u-html {
   display: flex;
   list-style: none;
@@ -303,10 +310,6 @@ h4 {
   list-style: none;
 }
 
-.lang-child img {
-  margin-right: 16px;
-}
-
 .lang-itemz {
   display: flex;
   font-weight: 500;
@@ -360,10 +363,6 @@ h4 {
 
 .sec {
   color: #7a869ae7;
-}
-
-a {
-  color: #396df2;
 }
 
 select {
