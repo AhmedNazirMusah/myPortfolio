@@ -8,6 +8,7 @@ In this project, you will set up a basic portfolio for future update.
 ## Built With
 
 - HTML & CSS
+- Javascript
 
 ## Live Demo 
 
@@ -23,6 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - Create a new branch 
 - Add a .gitignore file.
 - Set up a linter for HTML and CSS and JS and make sure that any files that are not relevant are ignored by git.
+- Use Javascript  array to store all of the information for all projects.
 - Add descriptive README file to your project.
 
    
