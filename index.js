@@ -23,3 +23,5 @@ const modalLinks = document.getElementsByClassName('m-links');
 modalLinks[0].addEventListener('click', close);
 modalLinks[1].addEventListener('click', close);
 modalLinks[2].addEventListener('click', close);
+
+// pop up functions
