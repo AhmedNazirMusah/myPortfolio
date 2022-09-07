@@ -77,4 +77,30 @@ const projects = [{
   classN: 'cla-4',
 },
 ];
-// pop up functions
+// functions for works
+const cardsEl = document.querySelector('.works');
+projects.forEach((cardModal) => {
+  cardsEl.innerHTML += `
+  <div class="card1 c-class">
+        <img src="${cardModal.cardImage}" alt="snaphot" class="p-img">
+        <div>
+          <h2>${cardModal.title}</h2>
+          <section class="u-c">
+            <h5>${cardModal.feature[0]}</h5>
+            <img src="${cardModal.dotImg}" alt="counter">
+            <h5 class="sec">${cardModal.feature[1]}</h5>
+            <img src="${cardModal.dotImg}" alt="counter">
+            <h5 class="sec">${cardModal.feature[2]}</h5>  
+          </section>
+          <p>
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <ul class="u-html">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <a href="#" class="button"><h4>See Project</h4></a>
+        </div> 
+      </div>`;
+});
