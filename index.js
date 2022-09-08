@@ -34,7 +34,7 @@ const projects = [{
   cardImage: 'works/Snapshoot-Portfolio1.svg',
   dotImg: 'works/Counter.svg',
   bigtags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstraps'],
-  smallrags: ['html', 'css', 'javascript'],
+  smalltags: ['html', 'css', 'javascript'],
   classN: 'cla-1',
 },
 {
@@ -47,7 +47,7 @@ const projects = [{
   cardImage: 'works/Snapshoot-Portfolio2.svg',
   dotImg: 'works/Counter.svg',
   bigtags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstraps'],
-  smallrags: ['html', 'css', 'javascript'],
+  smalltags: ['html', 'css', 'javascript'],
   classN: 'cla-2',
 },
 {
@@ -60,7 +60,7 @@ const projects = [{
   cardImage: 'works/Snapshoot-Portfolio3.svg',
   dotImg: 'works/Counter.svg',
   bigtags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstraps'],
-  smallrags: ['html', 'css', 'javascript'],
+  smalltags: ['html', 'css', 'javascript'],
   classN: 'cla-3',
 },
 {
@@ -73,7 +73,7 @@ const projects = [{
   cardImage: 'works/Snapshoot-Portfolio4.svg',
   dotImg: 'works/Counter.svg',
   bigtags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstraps'],
-  smallrags: ['html', 'css', 'javascript'],
+  smalltags: ['html', 'css', 'javascript'],
   classN: 'cla-4',
 },
 ];
@@ -100,7 +100,62 @@ projects.forEach((cardModal) => {
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <a href="#" class="button"><h4>See Project</h4></a>
+          <button class="button see"><h4>See Project</h4></button>
         </div> 
       </div>`;
 });
+
+const popUp = (i) => `
+<section class="modal-holder">
+  <div class="mod-1">
+    <h2 class="tonic-title">${projects[i].title}</h2>
+    <button class="closePopup"><img src="works/icon.svg"></button>
+  </div>
+  <div class="u-c">
+    <h5>${projects[i].feature[0]}</h5>
+    <img src="${projects[i].dotImg}" alt="counter">
+    <h5 class="sec">${projects[i].feature[1]}</h5>
+    <img src="${projects[i].dotImg}" alt="counter">
+    <h5 class="sec"${projects[i].feature[2]}</h5>  
+  </div>
+  <img src="${projects[i].cardImage}" alt="snaphot class="popImg">
+  <div>
+    <p>${projects[i].long}</p>
+    <div>
+      <ul class="u-html">
+        <li>${projects[i].smalltags[0]}</li>
+        <li>${projects[i].smalltags[1]}</li>
+        <li>${projects[i].smalltags[2]}</li>
+      </ul>
+      <ul class="u-html">
+        <li>${projects[i].bigtags[3]}</li>
+        <li>${projects[i].bigtags[4]}</li>
+        <li>${projects[i].bigtags[5]}</li>
+      </ul>
+      <div>
+        <a href="#" class="button"><h4>See live</h4></a>
+        <a href="#" class="button"><h4>See source</h4></a>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+const seeProject = document.querySelectorAll('.see');
+for (let i = 0; i < seeProject.length; i += 1) {
+  seeProject[i].addEventListener('click', () => {
+    const mainHolder = document.createElement('div');
+    mainHolder.classList.add('pop-modal');
+    mainHolder.innerHTML = popUp(i);
+    document.body.appendChild(mainHolder);
+    body.classList.toggle('blur');
+    document.body.style.overflow = 'hidden';
+    function pClose() {
+      document.body.removeChild(mainHolder);
+      body.classList.toggle('blur');
+      document.body.style.overflow = 'visible';
+    }
+    const closepop = document.querySelector('.closePopup');
+    closepop.addEventListener('click', pClose);
+  });
+}
