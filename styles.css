@@ -5,6 +5,31 @@ body {
   margin: 0;
 }
 
+.popImg {
+  width: 100%;
+}
+
+.white {
+  background: white;
+}
+
+.mod-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-holder {
+  background-color: white;
+  padding: 3%;
+  width: 80%;
+  height: max-content;
+}
+
+.modal-holder .ing {
+  width: 100%;
+}
+
 .mobile-modal {
   background-color: hsla(234, 100%, 50%, 0.595);
   display: flex;
@@ -15,10 +40,28 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: 3;
+  z-index: 5;
   height: 100%;
   width: 100%;
   margin-top: 0;
+}
+
+.pop-modal {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 40px 20px 28px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  width: 80%;
+  height: 80%;
+  align-items: center;
+  overflow-y: scroll;
+  flex-wrap: 1;
+  margin: 3%;
 }
 
 a {
@@ -210,6 +253,11 @@ h4 {
   border: 3px solid #2c3cc8a7;
   border-radius: 8px;
   font-weight: 500;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border: none;
 }
 
 .button h4 {
@@ -467,11 +515,30 @@ form button {
   text-decoration: underline;
 }
 
+.modal-div {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
   .welcome {
     padding-left: 130px;
     font-size: 18px;
+  }
+
+  .blur {
+    filter: blur(9px);
+  }
+
+  .modal-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popImg {
+    width: 100%;
   }
 
   .mobile-modal {
