@@ -113,13 +113,13 @@ const popUp = (i) => `
   </div>
   <div class="u-c">
     <h5>${projects[i].feature[0]}</h5>
-    <img src="${projects[i].dotImg}" alt="counter">
+    <img src="${projects[i].dotImg}"  alt="counter">
     <h5 class="sec">${projects[i].feature[1]}</h5>
     <img src="${projects[i].dotImg}" alt="counter">
     <h5 class="sec"${projects[i].feature[2]}</h5>  
   </div>
-  <img src="${projects[i].cardImage}" alt="snaphot class="popImg">
-  <div>
+  <img src="${projects[i].cardImage}" alt="snaphot" class="ing">
+  <div class="modal-div">
     <p>${projects[i].long}</p>
     <div>
       <ul class="u-html">
