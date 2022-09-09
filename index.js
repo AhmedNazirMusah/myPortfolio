@@ -159,3 +159,19 @@ for (let i = 0; i < seeProject.length; i += 1) {
     closepop.addEventListener('click', pClose);
   });
 }
+/* Email Validation Code */
+
+const mainForm = document.getElementById('form-input');
+const validator = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/;
+mainForm.addEventListener('submit', (e) => {
+  const emailentry = document.getElementById('email-input').value;
+  const message = document.getElementById('message');
+  if (!validator.test(emailentry)) {
+    e.preventDefault();
+    message.innerHTML = 'Invalid Email : Email Required in Lower Case';
+    message.style.color = '#ff0000';
+    message.classList.add('h-light');
+    return false;
+  }
+  return true;
+});
