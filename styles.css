@@ -6,8 +6,8 @@ body {
 }
 
 .h-light {
-  border: 3px solid red;
-  background-color: rgba(170, 74, 74, 0.441);
+  border: 3px solid rgb(157, 80, 80);
+  background-color: rgba(198, 27, 27, 0.441);
   color: white;
 }
 

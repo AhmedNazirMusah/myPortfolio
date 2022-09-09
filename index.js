@@ -169,7 +169,6 @@ mainForm.addEventListener('submit', (e) => {
   if (!validator.test(emailentry)) {
     e.preventDefault();
     message.innerHTML = 'Invalid Email : Email Required in Lower Case';
-    message.style.color = '#ff0000';
     message.classList.add('h-light');
     return false;
   }
