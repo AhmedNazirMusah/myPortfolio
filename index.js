@@ -174,3 +174,56 @@ mainForm.addEventListener('submit', (e) => {
   }
   return true;
 });
+
+// fetching enterd details from user
+const providedEmail = document.getElementById('email-input');
+const messageFromUser = document.getElementById('text-input');
+const dataByUser = {};
+const providedName = document.getElementById('name-input');
+
+// Local Data storage
+function isStorageSupported(type) {
+  let localStorage;
+  try {
+    localStorage = window[type];
+    const i = '__testing_storage__';
+    localStorage.setItem(i, i);
+    localStorage.removeItem(i);
+    return true;
+  } catch (e) {
+    return (
+      e instanceof DOMException
+      && (e.code === 22
+        || e.code === 1014
+        || e.name === 'QuotaExceededError'
+        || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
+        && localStorage
+        && localStorage.length !== 0);
+  }
+}
+
+function siteUpdater() {
+  const currentUserData = JSON.parse(localStorage.getItem('dataByUser'));
+  providedName.value = currentUserData.name ? currentUserData.name : '';
+  providedEmail.value = currentUserData.email ? currentUserData.email : '';
+  messageFromUser.value = currentUserData.textarea ? currentUserData.textarea : '';
+}
+
+function fillStorage() {
+  dataByUser.name = providedName.value;
+  dataByUser.email = providedEmail.value;
+  dataByUser.textarea = messageFromUser.value;
+  localStorage.setItem('dataByUser', JSON.stringify(dataByUser));
+
+  siteUpdater();
+}
+
+if (isStorageSupported('localStorage')) {
+  if (!localStorage.getItem('dataByUser')) {
+    fillStorage();
+  } else {
+    siteUpdater();
+  }
+}
+
+mainForm.onchange = fillStorage;
