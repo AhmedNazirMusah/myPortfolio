@@ -183,12 +183,12 @@ const providedName = document.getElementById('name-input');
 
 // Local Data storage
 function isStorageSupported(type) {
-  let localStorage;
+  let theStorage;
   try {
-    localStorage = window[type];
+    theStorage = window[type];
     const i = '__testing_storage__';
-    localStorage.setItem(i, i);
-    localStorage.removeItem(i);
+    theStorage.setItem(i, i);
+    theStorage.removeItem(i);
     return true;
   } catch (e) {
     return (
@@ -197,8 +197,8 @@ function isStorageSupported(type) {
         || e.code === 1014
         || e.name === 'QuotaExceededError'
         || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
-        && localStorage
-        && localStorage.length !== 0);
+        && theStorage
+        && theStorage.length !== 0);
   }
 }
 
