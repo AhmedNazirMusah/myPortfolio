@@ -27,6 +27,8 @@ To get a local copy up and running follow these simple example steps.
 - Use Javascript  array to store all of the information for all projects.
 - Implement a client-side validation of the data in the contact form before submission
 - Add descriptive README file to your project.
+- save the form data in the local storage of the browser
+-  Create a single JavaScript object with all the data from the entire form 
 
    
 
