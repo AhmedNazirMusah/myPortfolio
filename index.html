@@ -47,38 +47,6 @@
     <section class="works">
     </section>
     <section class="modal-cards">
-      <!-- <div>
-        <h2 class="tonic-title">Tonic</h2>
-        <button><img src="works/close-btn.svg" alt="close-btn"></button>
-      </div>
-      <div class="u-c">
-        <h5>Canopy</h5>
-        <img src="works/Counter.svg" alt="counter">
-        <h5 class="sec">Back End Dev</h5>
-        <img src="works/Counter.svg" alt="counter">
-        <h5 class="sec">2015</h5>  
-      </div>
-      <img src="works/Snapshoot-Portfolio1.svg" alt="snaphot" class="p-img">
-      <div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
-        </p>
-        <div>
-          <ul class="u-html">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <ul class="u-html">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <div>
-            <a href="#" class="button"><h4>See live</h4></a>
-            <a href="#" class="button"><h4>See source</h4></a>
-          </div>
-        </div>
-      </div> -->
     </section> 
     <section class="about-section">
       <div class="abt-me" id="About-me">
@@ -115,14 +83,15 @@
       </div>
     </section>
     <footer>
-      <form action="https://formspree.io/f/mwkzpvpy" method="post">
+      <form id="form-input" action="https://formspree.io/f/mwkzpvpy" method="post">
         <div class="forms" id="Contact-me">
           <h3>Contact Me</h3>
           <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-          <input type="text" placeholder="Name" maxlength="30" class="f-input" name="Name" required >
-          <input type="email" placeholder="Email" name="Email" class="f-input" required>
+          <input type="text" placeholder="Name" maxlength="30" class="f-input" name="Name" required>
+          <input type="email" placeholder="Email" name="Email" class="f-input" required id="email-input">
           <textarea placeholder="Write your message here" class="f-input" maxlength="500" name="message" required></textarea>
-          <button class="submit-btn" type="submit">Get in Touch</button>
+          <button id="form-submit" class="submit-btn" type="submit">Get in Touch</button>
+          <span id="message"></span>
         </div>
     </form>
     </footer>

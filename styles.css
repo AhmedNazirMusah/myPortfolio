@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+.h-light {
+  border: 3px solid rgb(157, 80, 80);
+  background-color: rgba(198, 27, 27, 0.441);
+  color: white;
+}
+
 .popImg {
   width: 100%;
 }
