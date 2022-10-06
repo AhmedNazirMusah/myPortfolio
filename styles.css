@@ -112,6 +112,7 @@ li {
 }
 
 .p-img {
+  width: 100%;
   margin-bottom: 12px;
   transition: 200ms all ease-in-out;
 }
@@ -694,7 +695,7 @@ form button {
   }
 
   .button h4:hover {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .icons img:hover {
